@@ -7,3 +7,6 @@ logging:
     com.example: DEBUG
 server:
   port: 8080
+
+keystore:
+  password: mySecretKey
