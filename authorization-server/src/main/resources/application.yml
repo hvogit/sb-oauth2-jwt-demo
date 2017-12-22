@@ -1,0 +1,9 @@
+spring.output.ansi.enabled: ALWAYS
+
+server.contextPath: /auth
+logging:
+  level:
+    org.springframework.security: DEBUG
+    com.example: DEBUG
+server:
+  port: 8080

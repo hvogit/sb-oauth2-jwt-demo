@@ -1,0 +1,7 @@
+spring.output.ansi.enabled: ALWAYS
+
+server.port: 9090
+security:
+ oauth2:
+   resource:
+     userInfoUri: http://localhost:8080/auth/user
